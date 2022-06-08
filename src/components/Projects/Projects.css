@@ -5,11 +5,11 @@
     /* padding-left: 10px; */
 }
 
-.lop{
-    padding: 20px;
-    font-size: 30px;
+hr{
+    height:5px;
+  border-width:0;
+  background-color:#056675;
 }
-
 .Rl{
     display: flex;
     width: 1600px;
@@ -26,6 +26,25 @@
     width: 500px;
     padding-top: 80px;
 }
+
+.Rl2{
+    display: flex;
+    width: 1600px;
+    height: 500px;
+
+}
+.Rl_left2{
+    display: flex;
+    padding: 20px;
+    width: 850px;
+    height: 300px;
+
+}
+.Rl_right2{
+    width: 500px;
+    padding-top: 80px;
+
+}
 .Ds{
     display: flex;
     width: 1600px;
@@ -41,6 +60,23 @@
     margin-top: 50px;
     width: 500px;
     padding: 10px;
+}
+.speed{
+    display: flex;
+}
+.speed-left{
+    display: flex;
+    padding: 20px;
+    width: 850px;
+    height: 500px;
+
+}
+
+.speed-right{
+    margin-top: 50px;
+    width: 500px;
+    padding: 10px;
+
 }
 
 
