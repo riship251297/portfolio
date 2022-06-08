@@ -1,0 +1,13 @@
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:1600px;
+    height: 420px;
+  }
+
+
+img{
+  padding: 50px;
+  
+}

@@ -1,0 +1,58 @@
+.Deep{
+    display: block;
+    width: auto;
+    height: 1900px;
+    /* padding-left: 10px; */
+}
+
+.lop{
+    padding: 20px;
+    font-size: 30px;
+}
+
+.Rl{
+    display: flex;
+    width: 1600px;
+    height: 500px;
+}
+.Rl_left{
+    display: flex;
+    padding: 20px;
+    width: 850px;
+    height: 300px;
+
+}
+.Rl_right{
+    width: 500px;
+    padding-top: 80px;
+}
+.Ds{
+    display: flex;
+    width: 1600px;
+    height: 500px;
+}
+.Ds_left{
+    display: flex;
+    padding: 20px;
+    width: 850px;
+    height: 500px;
+}
+.Ds_right{
+    margin-top: 50px;
+    width: 500px;
+    padding: 10px;
+}
+
+
+li{
+    font-family: inherit;
+    padding: 8px;
+    font-size: 20px;
+    text-align: justify;
+  
+  }
+  ul{
+    font-family: system-ui;
+    padding: 3px;
+    font-size:25px;
+  }

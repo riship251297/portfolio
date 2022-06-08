@@ -1,0 +1,15 @@
+.box{
+    text-align: justify;
+    font-family: system-ui;
+    font-size: 23px;
+    margin-left: 390px;
+    width: 800px;
+  }
+
+.name{
+    position: relative;
+    left:630px;
+    font-size: 40px;
+    color: black;
+    font-family: system-ui;
+  }
