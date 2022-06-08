@@ -10,7 +10,7 @@ const Projects = () => {
       <Navbar/>
       <div className='Deep'>
         <div className='Rl'>
-          <div className='Rl_left'>
+          <div className='Rl_left1'>
             <ul>
               <ul><b>DEEP REINFORCEMENT LEARNING BASED PROJECTS : </b></ul>
               <ol>
@@ -36,11 +36,12 @@ const Projects = () => {
               </ol>
             </ul>
           </div>
-          <div className='Rl_right'>
+          <div className='Rl_right1'>
           <video width="550" height="350" autoPlay loop muted >
               <source src={video}  type="video/mp4"/>
             </video>
           </div>
+
         </div>
               {/* <ol>
                 <ul><b>Deep Q Networks</b></ul>
