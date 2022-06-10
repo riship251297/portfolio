@@ -7,7 +7,7 @@ import App from './App';
 import Projects from '../src/components/Projects/Projects';
 import Research from './components/Research/Research';
 import About from './components/About/About';
-import Gallery from './components/Gallery/Gallery'
+import Gallery from './components/Gallery/Gallery';
 
 
 
