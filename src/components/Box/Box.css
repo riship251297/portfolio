@@ -1,15 +1,18 @@
 .box{
     text-align: justify;
     font-family: system-ui;
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 390px;
     width: 800px;
+    font-family: 300;
   }
 
 .name{
     position: relative;
-    left:630px;
-    font-size: 40px;
+    left:650px;
+    font-size: 35px;
     color: black;
     font-family: system-ui;
   }
+
+  

@@ -2,15 +2,62 @@ import React from "react";
 import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
+import '/Users/rishikesh/Desktop/project/src/components/About/About.css'
 
 function About (){
     return (
-        <React.Fragment>
-            <Navbar/>
-            <Photo/>
-            {/* <Box/> */}
-            
-        </React.Fragment>
+        <>
+        <Navbar/>
+        <Photo/>
+        <Box/>
+        <div className='endboard'>
+          <div className='leftpart'>
+            <center><h1>WORK EXPERIENCE</h1></center>
+            <ul>
+              <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>
+              <div className="left_andar">
+              <ol>
+                <li><p>Implemented Privacy Model that assures the removal of facial features from 3D Brain MRI scans by mapping them into four different 2D projections.It removes all the facial feaures that can be used to identify the subject.This model is very handy for analysis since researchers would always prefer images that are deidentified.</p></li>
+                <li>Implemented Brain Cut model to ensure that all the brain tissues in MRI image are intact and not removed as a part of the deidentification process.This model can help researchers evaluate the image since deskulling can remove important voxels from the brain image.</li>
+              </ol>
+              </div>
+              <li><b>Graduate Research Assistant | Multimedia Lab | Clemson University, US |</b></li>
+              <li><b>Software Development Engineer Intern | Markelytics Solutions | Mumbai, INDIA </b></li>
+              {/* <ul><mark>Stack : | Deep Learning | Computer Vision | Python | Tensorflow | Keras | </mark></ul> */}
+            </ul>
+
+          </div>
+          {/* <div class="vl"></div> */}
+
+          <div className='rightpart'>
+            <center><h1>COURSE-WORK</h1></center>
+            <div className="andar">
+            <li><b>Spring 2021</b></li>
+            <ol>
+              <li>Deep Reinforcement Learning </li>
+              <li>Applied Data Science </li>
+              <li>Statistical Analysis - I </li>
+            </ol>
+            <li><b>Fall 2021</b></li>
+            <ol>
+              <li>Machine Learning - Implementation and Evaluation </li>
+              <li>Data Analysis</li>
+              <li>Foundations of Software Engineering</li>
+            </ol>
+            <li><b>Spring 2022</b></li>
+            <ol>
+              <li>Artificial Intelligence </li>
+              <li>Distributed Denial Service of attacks</li>
+              <li>Statistical Analysis - II (Regression Analysis)</li>
+            </ol>
+            <li><b>Fall 2022</b></li>
+            <ol>
+              <li>Cloud Computing </li>
+            </ol>
+            </div>
+          </div>
+          </div>
+        </>
 
 
     );

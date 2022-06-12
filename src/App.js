@@ -19,9 +19,8 @@ function App() {
           <Box/>
         </div>
       </div>
-      <div className='endboard'>
-      </div>
-    </div>
+     </div>
+
     </React.Fragment>
 
       

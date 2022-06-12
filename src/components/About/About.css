@@ -1,0 +1,65 @@
+.endboard
+{
+    background-color:#f5f9f8;
+    display: flex;
+    width: auto;
+    height: 1000px;
+    border-style: inherit;
+    border-color: #050505;
+  }
+
+.leftpart
+{
+    padding: 15px;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 25px;
+}
+
+li
+{
+    font-weight: 300;
+    padding: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+ul
+{
+    padding: 2px;
+    font-size: 20px;
+}
+
+.rightpart
+{
+    padding: 15px;
+    width: 900px;
+    height: 900px;
+}
+.andar
+{
+    margin-left: 60px;
+}
+.left_andar
+{
+    margin-left: -30px;
+}
+ol
+{
+    font-size: 10px;
+}
+
+h2
+{
+    font-size: 20px;
+}
+mark
+{
+    background-color: rgb(238, 219, 5);
+}
+
+.vl 
+{
+    border-left: 6px solid rgb(192, 212, 192);
+    height: 1500px;
+  }
