@@ -1,10 +1,13 @@
 import axios from 'axios'
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 import Navbar from '../Navbar/Navbar'
 
+import {useDispatch} from 'react-redux';
 function Gallery() 
 {
   const [news, setNews] = useState([])
+
+  const dispatch = useDispatch();
 
   const fetchNews = () => {
     axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=889a2b39120c4636ae66833b27dcac39")
