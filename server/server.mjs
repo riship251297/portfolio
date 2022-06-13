@@ -31,10 +31,12 @@ mongoose.connect(uri).then(function (){
     console.log("Mongoose connected successfully");
 })
 
+app.get('/',(req,res)=>{
+    res.send("can you see me !")
+});
 
 
 
-
-app.listen(4000,function (){
-    console.log("rishikesh")
+app.listen(5000,function (){
+    console.log("rishikesh");
 });

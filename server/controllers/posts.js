@@ -35,7 +35,6 @@ export const test = (req,res)=>{
         const username = req.body.username
         console.log("The username is : " + username);
         res.send("The username is "+username)
-        
     }
     catch (error) 
     {
