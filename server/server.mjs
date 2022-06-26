@@ -43,7 +43,7 @@ app.post('/tests',(req,res)=>
     } 
     catch (error) 
     {
-        res.send(404).json({message:error.message});
+        res.sendStatus(404).json({message:error.message});
     }
 });
 
