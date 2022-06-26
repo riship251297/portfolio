@@ -4,12 +4,15 @@ import cors from "cors";
 import dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 
+import multer from "multer";
+
 import postroutes from './routes/posts.js';
 import test from './routes/posts.js';
 // import firstpage from "./controllers/posts.js";
 
 import contact from './routes/posts.js'
 import friends from './models/friends.js'
+import images from './models/image.js'
 
 
 
@@ -64,6 +67,38 @@ app.post("/contact",async (req,res)=>{
         res.sendStatus(500).json({message:error.message});
     }
 });
+
+
+
+const Storage = multer.diskStorage({
+    destination:'uploads',
+    filename:(req,file,cb) =>{
+        cb(null,file.originalname);
+    },
+});
+
+
+const upload = multer({
+    storage:Storage
+}).single('testImage')
+
+app.post('/upload',(req,res)=>{
+    upload(req,res,(err)=>{
+        if (err)
+        {console.log(err)}
+        else{
+            const newimage = new images({
+                name:req.body.name,
+                image :{
+                    data:req.file.filename,
+                    contentType:'image/png'
+                }
+            })
+            newimage.save()
+            .then(()=>res.send("successfully uploaded")).catch(err=>console.log(err))
+        }
+    })
+})
 
 
 
