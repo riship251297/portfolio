@@ -10,17 +10,17 @@ import About from './components/About/About';
 import Gallery from './components/Gallery/Gallery';
 
 
-import {Provider} from 'react-redux';
-import {createStore,applymiddleware,compose} from redux;
-import thunk from 'redux-thunk';
+// import {Provider} from 'react-redux';
+// import {createStore,applymiddleware,compose} from 'redux';
+// import thunk from 'redux-thunk';
 
-import reducers from './reducers';
+// import reducers from './reducers';
 
-const store = createStore(reducers,compose(applymiddleware(thunk)))
+// const store = createStore(reducers,compose(applymiddleware(thunk)))
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={store}>
+  // <Provider store={store}>
   <Router>
     <Routes>
       <Route path='/' element={<About/>} />
@@ -31,7 +31,7 @@ root.render(
      
     </Routes>
   </Router>
-  </Provider>
+  // </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

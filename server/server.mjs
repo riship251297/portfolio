@@ -100,6 +100,17 @@ app.post('/upload',(req,res)=>{
     })
 })
 
+app.get('/data',function(req,res){
+
+    res.json({
+        number: 1,
+        name: 'John',
+        gender: 'male'
+      });
+    
+})
+
+
 
 
 

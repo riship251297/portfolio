@@ -2,12 +2,12 @@ import axios from 'axios'
 import {useState,useEffect} from 'react'
 import Navbar from '../Navbar/Navbar'
 
-import {useDispatch} from 'react-redux';
+// import {useDispatch} from 'react-redux';
 function Gallery() 
 {
   const [news, setNews] = useState([])
 
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const fetchNews = () => {
     axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=889a2b39120c4636ae66833b27dcac39")
@@ -16,6 +16,14 @@ function Gallery()
         setNews(response.data.articles)
       })
   }
+
+  const d = ()=>
+  {
+    axios.get("http://localhost:3501/data")
+    .then((response) =>{
+      console.log(response)
+    })
+  }
   return (
     <>
     <Navbar/>
@@ -23,6 +31,8 @@ function Gallery()
         <div className="row">
           <div className="col-4">
             <button className='btn btn-primary' onClick={fetchNews}>FetchNews</button>
+            <button className='btn btn-primary' onClick={d}>FetchNews</button>
+
           </div>
         </div>
       </div>
