@@ -71,7 +71,7 @@ app.post("/contact",async (req,res)=>{
 
 
 const Storage = multer.diskStorage({
-    destination:'uploads',
+    destination:'public/images/',
     filename:(req,file,cb) =>{
         cb(null,file.originalname);
     },
@@ -110,6 +110,12 @@ app.get('/data',function(req,res){
     
 })
 
+
+app.get('/images_sharing',function(req,res){
+    res.json({
+        image_path:'/Users/rishikesh/Desktop/project/src/server/uploads/brain.png',
+    })
+})
 
 
 

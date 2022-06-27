@@ -7,6 +7,11 @@ function Gallery()
 {
   const [news, setNews] = useState([])
 
+  const [image_path, setImagepath] = useState([]) 
+
+
+
+
   // const dispatch = useDispatch();
 
   const fetchNews = () => {
@@ -24,6 +29,22 @@ function Gallery()
       console.log(response)
     })
   }
+
+const fetch_image = ()=>
+{
+  axios.get("http://localhost:3501/images_sharing")
+  .then((response)=>{
+    console.log(response.data.image_path)
+    setImagepath(response.data.image_path)
+    // const image_data_path = response.image_path;
+    // console.log(image_data_path)
+    // return response.data.image_path
+
+  })
+}
+
+
+
   return (
     <>
     <Navbar/>
@@ -56,6 +77,12 @@ function Gallery()
             })
           }
         </div>
+
+        <div className='photos'>
+          {fetch_image()}
+          <img src ={image_path}/>
+        </div>
+
       </div>
     </>
   )
