@@ -15,8 +15,8 @@ function Gallery()
     
   //     axios.get("http://localhost:3501/getimages")
   //     .then((response)=>{
-  //       console.log(response)
-  //       setGallerypics(response)
+  //       console.log(response.data)
+  //       setGallerypics(response.data)
   //     })
     
   // },[])
@@ -26,8 +26,15 @@ function Gallery()
   {
     axios.get("http://localhost:3501/getimages")
     .then((response)=>{
-      console.log(response)
-      setGallerypics(response.data)
+      response.data.map(image=>{
+        console.log(image.image.data.data)
+        return <div className="rt">
+          <img src={image.image.data} />
+          </div>
+
+      })
+      
+      // setGallerypics(response.data.image)
     })
   }
 
@@ -78,7 +85,10 @@ const fetch_image = ()=>
         </div>
       </div>
 
-      <div className="container">
+      return <div>{gallery()}</div>
+
+
+      {/* <div className="container">
         <div className="row">
           {
             gallery_pics.map((value,index) => {
@@ -96,17 +106,15 @@ const fetch_image = ()=>
               );
             })
           }
-        </div>
+        </div> */}
 
-        <div className='photos'>
+        {/* <div className='photos'>
           {/* {fetch_image()} */}
           {/* {gallery()} */}
-          <img src ={image_path}/>
-        </div>
+          {/* <img src ={image_path}/>
+        </div> */}
 
         {/* <div className='photo'>
-        
-
           <div className='row'>
           {
             gallery_pics.map((value,index) =>{
@@ -117,17 +125,16 @@ const fetch_image = ()=>
                     <div className='card-body'>
                       <h5 className='card-title'>{value}</h5>
                       <p className='card-text'>{value}</p>
-                
                     </div>
                   </div>
                 </div>
               )
             })
           }
-        </div>
-        </div> */}
+          </div>
+        </div> */} */}
 
-      </div>
+      {/* </div> */}
     </>
   )
 }
