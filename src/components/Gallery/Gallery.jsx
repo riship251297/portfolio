@@ -9,6 +9,28 @@ function Gallery()
 
   const [image_path, setImagepath] = useState([]) 
 
+  const [gallery_pics ,setGallerypics] = useState([])
+
+  // useEffect(()=>{
+    
+  //     axios.get("http://localhost:3501/getimages")
+  //     .then((response)=>{
+  //       console.log(response)
+  //       setGallerypics(response)
+  //     })
+    
+  // },[])
+
+
+  const gallery = ()=>
+  {
+    axios.get("http://localhost:3501/getimages")
+    .then((response)=>{
+      console.log(response)
+      setGallerypics(response.data)
+    })
+  }
+
 
 
 
@@ -36,12 +58,10 @@ const fetch_image = ()=>
   .then((response)=>{
     console.log(response.data.image_path)
     setImagepath(response.data.image_path)
-    // const image_data_path = response.image_path;
-    // console.log(image_data_path)
-    // return response.data.image_path
-
   })
 }
+
+
 
 
 
@@ -52,7 +72,7 @@ const fetch_image = ()=>
         <div className="row">
           <div className="col-4">
             <button className='btn btn-primary' onClick={fetchNews}>FetchNews</button>
-            <button className='btn btn-primary' onClick={d}>FetchNews</button>
+            <button className='btn btn-primary' onClick={gallery}>FetchNews</button>
 
           </div>
         </div>
@@ -61,14 +81,14 @@ const fetch_image = ()=>
       <div className="container">
         <div className="row">
           {
-            news.map((value,index) => {
+            gallery_pics.map((value,index) => {
               return (
                 <div key={index} className="col-4">
                   <div className="card" style={{ width: "18rem" }}>
-                    <img src={value.urlToImage} className="card-img-top" alt="..." />
+                    <img src={value} className="card-img-top" alt="..." />
                     <div className="card-body">
-                      <h5 className="card-title">{value.title}</h5>
-                      <p className="card-text">{value.description}</p>
+                      <h5 className="card-title">{value}</h5>
+                      <p className="card-text">{value}</p>
                       <a href="#" className="btn btn-primary">Main</a>
                     </div>
                   </div>
@@ -79,9 +99,33 @@ const fetch_image = ()=>
         </div>
 
         <div className='photos'>
-          {fetch_image()}
+          {/* {fetch_image()} */}
+          {/* {gallery()} */}
           <img src ={image_path}/>
         </div>
+
+        {/* <div className='photo'>
+        
+
+          <div className='row'>
+          {
+            gallery_pics.map((value,index) =>{
+              return (
+                <div key = {index} className="col-4">
+                  <div className='card' style={{width:"18rem"}}>
+                    <img src={value} className="card-img-top"/>
+                    <div className='card-body'>
+                      <h5 className='card-title'>{value}</h5>
+                      <p className='card-text'>{value}</p>
+                
+                    </div>
+                  </div>
+                </div>
+              )
+            })
+          }
+        </div>
+        </div> */}
 
       </div>
     </>

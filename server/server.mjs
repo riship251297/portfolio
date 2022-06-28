@@ -71,7 +71,7 @@ app.post("/contact",async (req,res)=>{
 
 
 const Storage = multer.diskStorage({
-    destination:'public/images/',
+    destination:'uploads',
     filename:(req,file,cb) =>{
         cb(null,file.originalname);
     },
@@ -113,10 +113,24 @@ app.get('/data',function(req,res){
 
 app.get('/images_sharing',function(req,res){
     res.json({
-        image_path:'/Users/rishikesh/Desktop/project/src/server/uploads/brain.png',
+        image_path:'images/brain.png',
     })
 })
 
+
+app.get('/getimages', async function(req,res)
+{
+    try 
+    {
+        const postimages = await images.find();
+        console.log(postimages)
+        res.status(200).json(postimages);
+    } 
+    catch (error)
+    {
+        res.status(404).json({message:error.message});
+    }
+})
 
 
 
