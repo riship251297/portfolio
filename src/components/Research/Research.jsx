@@ -108,7 +108,20 @@ function Research()
                             This platform also establishes new methods to compute and provide researchers with brain morphology measures, 
                             such as gray matter images, white matter images, brain volumes, etc., by exploiting massive parallel computation
                              with Clemson University's Palmetto supercomputer, and stores these datasets and computed morphological metrics 
-                             in BIDS compliant format, resolving the issues related to the data heterogeneity. 
+                             in BIDS compliant format, resolving the issues related to the data heterogeneity.One of the primary purposes of 
+                             developing a Dyslexia Data Consortium is to promote data sharing and research collaboration.
+                            </li>
+                            
+                            <li>Different types of secondary datasets generated include <br></br>a) Native Space Gray/White Matter Image b) Forward and Inverse Warped Image c) 
+                            Modulated and Normalized Gray/White Matter Image d) Normalized Bias Field Corrected Image and Surface data. Native space image is the 
+                            image in original space, i.e., not transformed by some registration or normalization function. Native Space analysis gives an 
+                            alternative to spatial normalization and smoothing steps in studies to analyze the white matter and the gray matter. 
+                            Warped images are manipulated images such that structures or shapes in an image are distorted to fit similar but different-sized 
+                            shapes in a template image. Spatial normalized images are deformed images that makes it possible for a location in the brain image of 
+                            a subject map to the exact location in the brain image of a different subject. Bias field corrected images are images that remove bias 
+                            field and correction of data corruption due to bias field using technique called bias field correction is used.
+                             Dyslexia data consortium also provides data such as left central thickness, left spherical thickness, etc.,
+                              for all the uploaded MRI images. All these datasets are available for users to download.
                             </li>
                         </div>
                     </ol>
