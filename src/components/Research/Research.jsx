@@ -86,20 +86,27 @@ function Research()
                                         <div className="yo">
                                             <img src={"images/rishi_0.4.png"} className="img-circled"width="900px"height="400px"alt=''/>   
                                             <h4>0.17 and 0.12</h4>
-                               
                                         </div>
                                     </div>
                                 </div>
                             </ol>
                         </ul>
-                        
                     </div>
+                    <hr></hr>
+                    <br>
+                    </br>
                 <div className="dysl">
-                    <ul>Dyslexia Data Consortium :</ul>
-                    <ol></ol>
-
+                    <h2 className="pop">Dyslexia Data Consortium : <a href="https://dyslexia.computing.clemson.edu/dashboard/">Link to the Consortium</a></h2>
+                    <ol>
+                        <div className="first-second">
+                            <li>Dyslexia Data Consortium, is a web-based platform for dyslexia data sharing and research collaboration. 
+                                With this platform, researchers can share dyslexia datasets and research methods to address 
+                                fundamental questions about dyslexia, replicate research findings, disseminate new ideas to process and 
+                                analyze dyslexia datasets, and educate the next generation of dyslexia researchers.
+                            </li>
+                        </div>
+                    </ol>
                 </div>
-
                </div>
            </div>
         </>
