@@ -112,8 +112,8 @@ function Research()
                              developing a Dyslexia Data Consortium is to promote data sharing and research collaboration.
                             </li>
                             
-                            <li>Different types of secondary datasets generated include <br></br>a) Native Space Gray/White Matter Image b) Forward and Inverse Warped Image c) 
-                            Modulated and Normalized Gray/White Matter Image d) Normalized Bias Field Corrected Image and Surface data. Native space image is the 
+                            <li>Different types of secondary datasets generated include :  <br></br>a) Native Space Gray/White Matter Image <br></br>b) Forward and Inverse Warped Image
+                            <br></br>c) Modulated and Normalized Gray/White Matter Image <br></br>d) Normalized Bias Field Corrected Image and Surface data. Native space image is the 
                             image in original space, i.e., not transformed by some registration or normalization function. Native Space analysis gives an 
                             alternative to spatial normalization and smoothing steps in studies to analyze the white matter and the gray matter. 
                             Warped images are manipulated images such that structures or shapes in an image are distorted to fit similar but different-sized 
