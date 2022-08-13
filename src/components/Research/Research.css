@@ -41,3 +41,31 @@ h2{
 {
     display: flex;
 }
+
+.opol
+{
+    padding: 5px;
+    margin-left: 340px;
+}
+
+.plp
+{
+    padding: 5px;
+    margin-left: 290px;
+}
+
+img
+{
+    margin-left: -60px;
+}
+
+.io,.yo,.uo
+{
+    display: flex;
+}
+
+h4
+{
+    margin-top: 170px;
+    margin-left: 170px ;
+}
