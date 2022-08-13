@@ -73,7 +73,7 @@ function Research()
                                     <div className="lll">
                                         <div className="ll">
                                         <h2> FSL BET generated images </h2>
-                                        <h2> Face and brain tissue presence probability</h2>
+                                        <right><h2> Face and brain tissue presence probability</h2></right>
 
                                         </div>
                                     <left><img src={"images/rishi_0.2.png"} className="img-circled"width="1000px"height="420px"alt=''/></left>
