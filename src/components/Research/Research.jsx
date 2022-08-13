@@ -113,8 +113,10 @@ function Research()
                             </li>
                             
                             <li>Different types of secondary datasets generated include :  <br></br>a) Native Space Gray/White Matter Image <br></br>b) Forward and Inverse Warped Image
-                            <br></br>c) Modulated and Normalized Gray/White Matter Image <br></br>d) Normalized Bias Field Corrected Image and Surface data. Native space image is the 
-                            image in original space, i.e., not transformed by some registration or normalization function. Native Space analysis gives an 
+                            <br></br>c) Modulated and Normalized Gray/White Matter Image <br></br>d) Normalized Bias Field Corrected Image and Surface data. <br></br>
+
+                            </li>
+                            <li>Native space image is the image in original space, i.e., not transformed by some registration or normalization function. Native Space analysis gives an 
                             alternative to spatial normalization and smoothing steps in studies to analyze the white matter and the gray matter. 
                             Warped images are manipulated images such that structures or shapes in an image are distorted to fit similar but different-sized 
                             shapes in a template image. Spatial normalized images are deformed images that makes it possible for a location in the brain image of 
