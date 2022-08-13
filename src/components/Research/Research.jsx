@@ -67,16 +67,20 @@ function Research()
                                     image's external surface, as the voxels of the scan in the internal portions of the brain are 
                                     unnecessary features that we do not want to include.&nbsp; The final labels were then chosen by tallying up all of the votes. This provided us with 
                                     a reliable dataset on which we we can build our two Convolutional Neural Network (CNN) models which 
-                                    can address our problem statement.</li>
+                                    can address our problem statement.
+                                    </li>
 
                                     <div className="lll">
+                                        <div className="ll">
+                                        <h2> FSL BET generated images </h2>
+                                        <h2> Face and brain tissue presence probability</h2>
+
+                                        </div>
                                     <left><img src={"images/rishi_0.2.png"} className="img-circled"width="1000px"height="420px"alt=''/></left>
-                                    <left><img src={"images/rishi_0.3.png"} className="img-circled"width="1000px"height="420px"alt=''/></left>
-                                    <left><img src={"images/rishi_0.4.png"} className="img-circled"width="1000px"height="420px"alt=''/></left>
                                     
-
-
                                     </div>
+                                    <left><img src={"images/rishi_0.3.png"} className="img-circled"width="1000px"height="420px"alt=''/></left>
+                                    <left><img src={"images/rishi_0.4.png"} className="img-circled"width="1000px"height="420px"alt=''/></left>                                    
                                 </div>
                             </ol>
                         </ul>
