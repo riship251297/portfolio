@@ -104,6 +104,12 @@ function Research()
                                 fundamental questions about dyslexia, replicate research findings, disseminate new ideas to process and 
                                 analyze dyslexia datasets, and educate the next generation of dyslexia researchers.
                             </li>
+                            <li>
+                            This platform also establishes new methods to compute and provide researchers with brain morphology measures, 
+                            such as gray matter images, white matter images, brain volumes, etc., by exploiting massive parallel computation
+                             with Clemson University's Palmetto supercomputer, and stores these datasets and computed morphological metrics 
+                             in BIDS compliant format, resolving the issues related to the data heterogeneity. 
+                            </li>
                         </div>
                     </ol>
                 </div>
