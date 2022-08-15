@@ -3,6 +3,9 @@ import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
 import '/Users/rishikesh/Desktop/project/src/components/About/About.css'
+import { IonIcon } from "@ionic/react";
+import {logogithub} from 'ionicons';
+
 
 function About (){
     return (
@@ -10,8 +13,10 @@ function About (){
         <Navbar/>
         <Photo/>
         <Box/>
+        <IonIcon icon={logogithub}/>
         <div className='endboard'>
           <div className='leftpart'>
+            
             <center><h1>WORK EXPERIENCE</h1></center>
             <ul>
               <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>
