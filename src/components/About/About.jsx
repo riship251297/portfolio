@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
 import '/Users/rishikesh/Desktop/project/src/components/About/About.css'
 import { GoDesktopDownload } from "react-icons/go";
-import { FaGithub,FaLinkedin,FaJs,FaReact } from "react-icons/fa";
+import { FaGithub,FaLinkedin,FaJs,FaReact,FaTelegramPlane,FaTwitter,FaPython,FaHtml5,FaCss3Alt,FaNode,MdOutgoingMail } from "react-icons/fa";
 
 
 function About (){
@@ -14,9 +14,9 @@ function About (){
         <Photo/>
         <Box/>
         <h4>Check out my Resume : <a href="https:youtube.com"><GoDesktopDownload/></a> </h4>
-        <h4>Find my work on  : <FaGithub/></h4>
-        <h4>You can connect me on : <FaLinkedin/></h4>
-        <h4>Skills : <FaJs/> <FaReact/></h4>
+        <h4>Find my work on  : <FaGithub size={50}/></h4>
+        <h4>You can connect me on : <FaLinkedin size={50}/></h4>
+        <h4>Skills : <FaJs size={50}/> <FaReact size={50}/> <FaPython size={50}/> <FaHtml5 size={50}/> <FaCss3Alt size={50}/> <FaNode size={50}/> </h4>
         
         
         <div className='endboard'>
