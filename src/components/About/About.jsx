@@ -3,8 +3,9 @@ import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
 import '/Users/rishikesh/Desktop/project/src/components/About/About.css'
-import { IonIcon } from "@ionic/react";
-import {logogithub} from 'ionicons';
+
+import { GoDesktopDownload } from "react-icons/go";
+
 
 
 function About (){
@@ -13,7 +14,8 @@ function About (){
         <Navbar/>
         <Photo/>
         <Box/>
-        <IonIcon icon={logogithub}/>
+        <h3>Check out my Resume :  <GoDesktopDownload /> </h3>
+        
         <div className='endboard'>
           <div className='leftpart'>
             

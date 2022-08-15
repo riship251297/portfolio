@@ -13,6 +13,8 @@ import test from './routes/posts.js';
 import contact from './routes/posts.js'
 import friends from './models/friends.js'
 import images from './models/image.js'
+import * as fs from 'fs';
+
 
 
 
@@ -117,6 +119,9 @@ app.get('/images_sharing',function(req,res){
     })
 })
 
+const url = 'GFG.jpeg';
+  
+
 
 app.get('/getimages', async function(req,res)
 {
@@ -132,6 +137,17 @@ app.get('/getimages', async function(req,res)
     }
 })
 
+app.get('/download',async function(req,res)
+{
+    res.send("rishikesh")
+    const path = '/Users/rishikesh/Desktop/project/public/images/rishi_0.2.png';
+    const filepath = fs.createWriteStream(path);
+    res.pipe(filepath);
+    filepath.on('finish',()=>{
+        filepath.close();
+        console.log("download completed");
+    })
+})
 
 
 app.listen(3501,function (){
