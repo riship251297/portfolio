@@ -119,7 +119,7 @@ function Research()
                             <li>Native space image is the image in original space, i.e., not transformed by some registration or normalization function. Native Space analysis gives an 
                             alternative to spatial normalization and smoothing steps in studies to analyze the white matter and the gray matter. 
                             Warped images are manipulated images such that structures or shapes in an image are distorted to fit similar but different-sized 
-                            shapes in a template image. </li>
+                            shapes in a template image.</li>
 
                             <li>Spatial normalized images are deformed images that makes it possible for a location in the brain image of 
                             a subject map to the exact location in the brain image of a different subject. Bias field corrected images are images that remove bias 
