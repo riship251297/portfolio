@@ -32,8 +32,9 @@ function About (){
             <div className="left1_andar">
               <li><b>Graduate Research Assistant | Multimedia Lab | Clemson University, US |</b></li>
               <ol>
-                <li><p>Integrated the privacy and Brain cut models into the Dyslexia Data Consortium, a web platform created to better understand dyslexia and developmental language disorders in general, as well as to provide data to aid replication and data sharing.</p></li>
-                <li><p>CAT12 toolbox was used to integrate various neuroimaging metrics associated with dyslexia for all T1-weighted images. Integrated necessary different neuroimaging fractional intensity threshold images from the FSL BET tool.</p></li>
+                <li><p>Integrated Deep learning based models into the Dyslexia Data Consortium, a web platform created to better understand dyslexia and developmental language disorders in general, as well as to provide data to aid replication and data sharing.</p></li>
+                <li><p>CAT12 toolbox was used to integrate various neuroimaging metrics associated with dyslexia for all T1-weighted images to help the researchers understand dyslexia more clearly. Integrated necessary different neuroimaging fractional intensity threshold images from the FSL BET tool.</p></li>
+                <li>Administered everyday operations of website and made necessary changes on a regular basis. Suggested modifications to the researchers to enhance the usability of the website. Performed periodic assessments on website traffic to generate reports on traffic activities.</li>
               </ol>
             </div>
             </ul>
