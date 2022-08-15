@@ -18,10 +18,34 @@ function About (){
         <h4>You can connect me on : <FaLinkedin size={50}/></h4>
         <h4>Skills : <FaJs size={50}/> <FaReact size={50}/> <FaPython size={50}/> <FaHtml5 size={50}/> <FaCss3Alt size={50}/> <FaNode size={50}/> </h4>
         
+        <div className="main">
+          <div className="ra">
+            <center><h2>WORK EXPERIENCE</h2></center>
+            <ul>
+              <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>
+              <div className="left_andar">
+                <ol>
+                    <li><p>Implemented Privacy Model that assures the removal of facial features from 3D Brain MRI scans by mapping them into four different 2D projections.It removes all the facial feaures that can be used to identify the subject.This model is very handy for analysis since researchers would always prefer images that are deidentified.</p></li>
+                    <li>Implemented Brain Cut model to ensure that all the brain tissues in MRI image are intact and not removed as a part of the deidentification process.This model can help researchers evaluate the image since deskulling can remove important voxels from the brain image.</li>
+                </ol>
+              </div>
+            <div className="left1_andar">
+              <li><b>Graduate Research Assistant | Multimedia Lab | Clemson University, US |</b></li>
+              <ol>
+                <li><p>Integrated the privacy and Brain cut models into the Dyslexia Data Consortium, a web platform created to better understand dyslexia and developmental language disorders in general, as well as to provide data to aid replication and data sharing.</p></li>
+                <li><p>CAT12 toolbox was used to integrate various neuroimaging metrics associated with dyslexia for all T1-weighted images. Integrated necessary different neuroimaging fractional intensity threshold images from the FSL BET tool.</p></li>
+              </ol>
+            </div>
+            </ul>
+            </div>
+            
         
-        <div className='endboard'>
+          <div className="internship">
+
+          </div>
+        </div>
+        {/* <div className='endboard'>
           <div className='leftpart'>
-          
             <center><h1>WORK EXPERIENCE</h1></center>
             <ul>
               <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>
@@ -30,14 +54,14 @@ function About (){
                     <li><p>Implemented Privacy Model that assures the removal of facial features from 3D Brain MRI scans by mapping them into four different 2D projections.It removes all the facial feaures that can be used to identify the subject.This model is very handy for analysis since researchers would always prefer images that are deidentified.</p></li>
                     <li>Implemented Brain Cut model to ensure that all the brain tissues in MRI image are intact and not removed as a part of the deidentification process.This model can help researchers evaluate the image since deskulling can remove important voxels from the brain image.</li>
                 </ol>
-                </div>
+              </div>
             <div className="left1_andar">
               <li><b>Graduate Research Assistant | Multimedia Lab | Clemson University, US |</b></li>
               <ol>
                 <li><p>Integrated the privacy and Brain cut models into the Dyslexia Data Consortium, a web platform created to better understand dyslexia and developmental language disorders in general, as well as to provide data to aid replication and data sharing.</p></li>
                 <li><p>CAT12 toolbox was used to integrate various neuroimaging metrics associated with dyslexia for all T1-weighted images.</p></li>
                 <p>
-                <a href="https://dyslexia.computing.clemson.edu">Check out the Dyslexia Data Consortium !</a>
+                  <a href="https://dyslexia.computing.clemson.edu">Check out the Dyslexia Data Consortium !</a>
                 </p>
               </ol>
             </div>
@@ -81,7 +105,7 @@ function About (){
             </ol>
             </div>
           </div>
-          </div>
+          </div> */}
         </>
 
 

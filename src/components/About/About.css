@@ -1,7 +1,17 @@
-.endboard
+.ra
+{
+    margin-left: 300px;
+    width: 900px;
+}
+
+
+
+/* .endboard
+
+
 {
     background-color:#f5f9f8;
-    /* display: flex; */
+    display: flex;
     width: 1600px;
     height: 1000px;
     border-style: inherit;
@@ -19,7 +29,6 @@
 li
 {
     font-weight: 300;
-    /* padding: 5px; */
     font-size: 20px;
     text-align: justify;
 }
@@ -74,4 +83,4 @@ mark
 {
     border-left: 6px solid rgb(192, 212, 192);
     height: 1500px;
-  }
+  } */
