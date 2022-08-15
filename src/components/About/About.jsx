@@ -3,9 +3,8 @@ import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
 import '/Users/rishikesh/Desktop/project/src/components/About/About.css'
-
 import { GoDesktopDownload } from "react-icons/go";
-
+import { FaGithub,FaLinkedin,FaJs,FaReact } from "react-icons/fa";
 
 
 function About (){
@@ -14,11 +13,15 @@ function About (){
         <Navbar/>
         <Photo/>
         <Box/>
-        <h3>Check out my Resume :  <GoDesktopDownload /> </h3>
+        <h4>Check out my Resume : <a href="https:youtube.com"><GoDesktopDownload/></a> </h4>
+        <h4>Find my work on  : <FaGithub/></h4>
+        <h4>You can connect me on : <FaLinkedin/></h4>
+        <h4>Skills : <FaJs/> <FaReact/></h4>
+        
         
         <div className='endboard'>
           <div className='leftpart'>
-            
+          
             <center><h1>WORK EXPERIENCE</h1></center>
             <ul>
               <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>

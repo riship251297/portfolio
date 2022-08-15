@@ -15,6 +15,8 @@ import friends from './models/friends.js'
 import images from './models/image.js'
 import * as fs from 'fs';
 
+import download from 'download';
+
 
 
 
@@ -140,13 +142,12 @@ app.get('/getimages', async function(req,res)
 app.get('/download',async function(req,res)
 {
     res.send("rishikesh")
-    const path = '/Users/rishikesh/Desktop/project/public/images/rishi_0.2.png';
-    const filepath = fs.createWriteStream(path);
-    res.pipe(filepath);
-    filepath.on('finish',()=>{
-        filepath.close();
-        console.log("download completed");
-    })
+    const file = '/rishi_0.2.png'
+    const path = '/Users/rishikesh/Desktop/project/public/images/';
+    download(file,path)
+.then(() => {
+    console.log('Download Completed');
+})
 })
 
 
