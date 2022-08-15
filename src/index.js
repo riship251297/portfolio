@@ -8,7 +8,7 @@ import Projects from '../src/components/Projects/Projects';
 import Research from './components/Research/Research';
 import About from './components/About/About';
 import Gallery from './components/Gallery/Gallery';
-
+import Main from './components/main/Main';
 
 // import {Provider} from 'react-redux';
 // import {createStore,applymiddleware,compose} from 'redux';
@@ -23,7 +23,7 @@ root.render(
   // <Provider store={store}>
   <Router>
     <Routes>
-      <Route path='/' element={<About/>} />
+      <Route path='/' element={<Main/>} />
       <Route path="/projects" element={<Projects/>} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/research" element={<Research />} />

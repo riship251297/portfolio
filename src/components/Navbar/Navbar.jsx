@@ -2,12 +2,11 @@ import React from "react";
 import {Link} from 'react-router-dom';
 
 import '../Navbar/Navbar.css';
-
 function Navbar(){
     return (
         <React.Fragment>
             <div className="upperboard">
-                <div className="names">RISHIKESH</div>
+                <div className="names"><a href="http://localhost:3000/">RISHIKESH</a></div>
                 <nav>
                     <Link to ="/projects" >PROJECTS</Link>
                     <Link to ="/gallery" >GALLERY</Link>
