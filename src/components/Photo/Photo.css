@@ -1,11 +1,9 @@
 .photo{
   margin-left: 670px;
   margin-top: 50px;
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    width:1600px;
-    height: 420px;
+  display: flex;
+  width:1600px;
+  height: 420px;
   }
 
 

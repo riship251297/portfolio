@@ -47,50 +47,16 @@ function About (){
           <div className="internship">
 
           </div>
-        </div>
-        {/* <div className='endboard'>
-          <div className='leftpart'>
-            <center><h1>WORK EXPERIENCE</h1></center>
-            <ul>
-              <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>
-              <div className="left_andar">
-                <ol>
-                    <li><p>Implemented Privacy Model that assures the removal of facial features from 3D Brain MRI scans by mapping them into four different 2D projections.It removes all the facial feaures that can be used to identify the subject.This model is very handy for analysis since researchers would always prefer images that are deidentified.</p></li>
-                    <li>Implemented Brain Cut model to ensure that all the brain tissues in MRI image are intact and not removed as a part of the deidentification process.This model can help researchers evaluate the image since deskulling can remove important voxels from the brain image.</li>
-                </ol>
-              </div>
-            <div className="left1_andar">
-              <li><b>Graduate Research Assistant | Multimedia Lab | Clemson University, US |</b></li>
-              <ol>
-                <li><p>Integrated the privacy and Brain cut models into the Dyslexia Data Consortium, a web platform created to better understand dyslexia and developmental language disorders in general, as well as to provide data to aid replication and data sharing.</p></li>
-                <li><p>CAT12 toolbox was used to integrate various neuroimaging metrics associated with dyslexia for all T1-weighted images.</p></li>
-                <p>
-                  <a href="https://dyslexia.computing.clemson.edu">Check out the Dyslexia Data Consortium !</a>
-                </p>
-              </ol>
-            </div>
 
-             
-              <li><b>Software Development Engineer Intern | Markelytics Solutions | Mumbai, INDIA </b></li>
-              <div className="left2-andar">
-                <ol>
-                    <li><p>Developed front end application for the CRM team, using Web technologies like HTML 5,CSS, Javascript, React JS, and Ajax that meets the web standards.</p></li>
-                    <li><p>Used React-Router extensively to navigate through various react components.CSS styles were developed to preserve the uniformity of all the screens throughout the application.</p></li>
-                </ol>
-              </div>
-            </ul>
-
-          </div>
-
-          <div className='rightpart'>
+          <div className="coursework">
             <center><h1>MS - COURSEWORK</h1></center>
             <div className="andar">
-            <li><b>Spring 2021</b></li>
-            <ol>
-              <li>Deep Reinforcement Learning </li>
-              <li>Applied Data Science </li>
-              <li>Statistical Analysis - I </li>
-            </ol>
+              <li><b>Spring 2021</b></li>
+              <ol>
+                <li>Deep Reinforcement Learning </li>
+                <li>Applied Data Science </li>
+                <li>Statistical Analysis - I </li>
+              </ol>
             <li><b>Fall 2021</b></li>
             <ol>
               <li>Machine Learning - Implementation and Evaluation </li>
@@ -109,7 +75,8 @@ function About (){
             </ol>
             </div>
           </div>
-          </div> */}
+        </div>
+        
         </>
 
 
