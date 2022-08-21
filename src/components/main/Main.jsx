@@ -7,10 +7,13 @@ import Photo from "../Photo/Photo";
 function Main() {
     return(
         <>
+        <div className="main">
         <Navbar/>
         <Photo/>
         <Box/>
+        </div>
         </>
+
     );
 }
 
