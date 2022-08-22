@@ -14,9 +14,10 @@ function Research()
                <div className="main">
                     <div className="first">
                         <ul>
-                            <h3>DEEP LEARNING AND BIOINFORMATICS </h3>
-                            <h2 className="edit">Research funded by National Institute of Health Sciences, US</h2>
-                            <h2 className="pop">Quality Evaluation of Shared Datasets :</h2>
+                            {/* <h3>DEEP LEARNING AND BIOINFORMATICS </h3> */}
+                            <br></br>
+                            {/* <h2 className="edit">Research funded by National Institute of Health Sciences, US</h2> */}
+                            <h3 className="pop">Quality Evaluation of Shared Datasets :</h3>
                             <ol>
                                 <div className="first-second">
                                     <li>This research project is supervised by Dr. James Wang, and is in collaboration with neuroscience experts  Dr. Mark Eckert and Dr. Kenny Vaden, 
@@ -59,9 +60,10 @@ function Research()
                                     method inspired by the marching cubes algorithm.</li>
 
                                     <div className="first-first">
-                                        <center><img src={"images/uploaded.png"} className="img-circled"width="1000px"height="420px"alt=''/></center>
+                                        <center><img src={"images/uploaded.png"} className="img-circled"width="1000px"height="400px"alt=''/></center>
+                                        <center><h4 className="shivani"> Fig : 2D projections of an MRI image</h4></center>
+
                                     </div>
-                                    <center><h2> Fig : 2D projections of an MRI image</h2></center>
 
                                     <li>Our intuition is that these projections will provide a comprehensive representation of the MRI 
                                     image's external surface, as the voxels of the scan in the internal portions of the brain are 
@@ -72,8 +74,8 @@ function Research()
 
                                     <div className="lll">
                                         <div className="ll">
-                                            <h2 className="plp"> FSL BET generated images </h2>
-                                            <h2 className="opol"> Face and brain tissue probability by model</h2>
+                                            <h4 className="plp"> FSL BET generated images </h4>
+                                            <h4 className="opol"> Face and brain tissue probability by model</h4>
                                         </div>
                                         <div className="io">
                                             <img src={"images/rishi_0.2.png"} className="img-circled"width="900px"height="400px"alt=''/>
@@ -96,7 +98,7 @@ function Research()
                     <br>
                     </br>
                 <div className="dysl">
-                    <h2 className="pop">Dyslexia Data Consortium : <a href="https://dyslexia.computing.clemson.edu/dashboard/">Link to the Consortium</a></h2>
+                    <h3 className="pop">Dyslexia Data Consortium : <a href="https://dyslexia.computing.clemson.edu/dashboard/">Link to the Consortium</a></h3>
                     <ol>
                         <div className="first-second">
                             <li>Dyslexia Data Consortium, is a web-based platform for dyslexia data sharing and research collaboration. 
