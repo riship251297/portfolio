@@ -11,10 +11,8 @@ function About (){
     return (
         <>
         <Navbar/>
-        <br></br>
 
         <Photo/>
-        <br></br>
 
         <Box/>
         {/* <h4>Check out my Resume : <a href="https:youtube.com"><GoDesktopDownload/></a> </h4>
@@ -55,11 +53,15 @@ function About (){
           <br></br>
           <div className="internship">
             <center><h2>INTERNSHIPS</h2></center>
+            <div className="intern">
+             <h4><b>Software Engineering Intern : Markelytics Solutions</b></h4>
+            </div>
           </div>
           <hr></hr>
           <div className="coursework">
             <center><h2>MS - COURSEWORK</h2></center>
             <div className="andar">
+              <br></br>
               <li><b>Spring 2021</b></li>
               <ol>
                 <li>Deep Reinforcement Learning </li>
