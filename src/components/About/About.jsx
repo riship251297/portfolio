@@ -11,15 +11,23 @@ function About (){
     return (
         <>
         <Navbar/>
+        <br></br>
+
         <Photo/>
+        <br></br>
+
         <Box/>
-        <h4>Check out my Resume : <a href="https:youtube.com"><GoDesktopDownload/></a> </h4>
+        {/* <h4>Check out my Resume : <a href="https:youtube.com"><GoDesktopDownload/></a> </h4>
         <h4>Find my work on  : <FaGithub size={50}/></h4>
         <h4>You can connect me on : <FaLinkedin size={50}/></h4>
-        <h4>Skills : <FaJs size={50}/> <FaReact size={50}/> <FaPython size={50}/> <FaHtml5 size={50}/> <FaCss3Alt size={50}/> <FaNode size={50}/> </h4>
+        <h4>Skills : <FaJs size={50}/> <FaReact size={50}/> <FaPython size={50}/> <FaHtml5 size={50}/> <FaCss3Alt size={50}/> <FaNode size={50}/> </h4> */}
         
         <div className="main">
+        <br></br>
+
+
           <div className="ra">
+
             <center><h2>WORK EXPERIENCE</h2></center>
             <ul>
               <li><b>Graduate Research Assistant | Bioinformatics Lab | Clemson University, US | Funded by National Institute of Health Sciences.</b></li>
@@ -43,13 +51,14 @@ function About (){
             </ul>
             </div>
             
-        
+          <hr></hr>
+          <br></br>
           <div className="internship">
-
+            <center><h2>INTERNSHIPS</h2></center>
           </div>
-
+          <hr></hr>
           <div className="coursework">
-            <center><h1>MS - COURSEWORK</h1></center>
+            <center><h2>MS - COURSEWORK</h2></center>
             <div className="andar">
               <li><b>Spring 2021</b></li>
               <ol>
