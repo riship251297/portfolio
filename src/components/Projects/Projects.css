@@ -13,7 +13,8 @@ hr{
 .Rl{
     display: flex;
     width: 1600px;
-    height: 500px;
+    height: 600px;
+    margin-left: 30px;
 }
 .Rl_left1{
     display: flex;
@@ -24,13 +25,15 @@ hr{
 }
 .Rl_right1{
     width: 500px;
-    padding-top: 80px;
+    margin-top: 130px;
+    margin-left: 70px;
 }
 
 .Rl2{
     display: flex;
     width: 1600px;
-    height: 500px;
+    height: 600px;
+    margin-left: 30px;
 
 }
 .Rl_left2{
@@ -42,13 +45,14 @@ hr{
 }
 .Rl_right2{
     width: 500px;
-    padding-top: 80px;
+    margin-top: 90px;
+    margin-left: 70px;
 
 }
 .Ds{
     display: flex;
     width: 1600px;
-    height: 500px;
+    height: 600px;
 }
 .Ds_left{
     display: flex;
