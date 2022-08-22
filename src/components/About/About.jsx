@@ -54,7 +54,11 @@ function About (){
           <div className="internship">
             <h2 className="cen">INTERNSHIPS</h2>
             <div className="intern">
-             <li className="mal"><b>Software Engineering Intern | Markelytics Solutions</b></li>
+             <li className="mal"><b>Software Engineering Intern | Simpliforge Creations </b></li>
+             <ol>
+             <li><p>Worked on company's CRM portal that met specific business objectives by customzing business logic with client side scripting and plug-ins. Collaborated with the project manager to understand requirements and ensured business needs are addressed.</p></li>
+              <li><p></p></li>
+              </ol>
             </div>
           </div>
           <hr></hr>

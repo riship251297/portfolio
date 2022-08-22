@@ -13,15 +13,12 @@
 
 .andar
 {
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
-.intern
-{
 
-}
 
-.mal
+/* .mal
 {
     margin-left: 350px;
 }
@@ -29,7 +26,16 @@
 .cen
 {
     margin-left: 680px;
+} */
+
+.internship
+{
+    margin-left: 320px;
+    width: 900px;
 }
+
+
+
 /* .endboard
 
 
