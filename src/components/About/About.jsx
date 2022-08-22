@@ -52,9 +52,9 @@ function About (){
           <hr></hr>
           <br></br>
           <div className="internship">
-            <center><h2>INTERNSHIPS</h2></center>
+            <h2 className="cen">INTERNSHIPS</h2>
             <div className="intern">
-             <h4><b>Software Engineering Intern : Markelytics Solutions</b></h4>
+             <li className="mal"><b>Software Engineering Intern | Markelytics Solutions</b></li>
             </div>
           </div>
           <hr></hr>
