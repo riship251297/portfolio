@@ -50,6 +50,7 @@ hr{
 
 }
 .Ds{
+    margin-left: 30px;
     display: flex;
     width: 1600px;
     height: 600px;
@@ -61,11 +62,13 @@ hr{
     height: 500px;
 }
 .Ds_right{
+    margin-left: 170px;
     margin-top: 50px;
     width: 500px;
     padding: 10px;
 }
 .speed{
+    margin-left: 30px;
     display: flex;
 }
 .speed-left{
@@ -77,6 +80,7 @@ hr{
 }
 
 .speed-right{
+    margin-left: 160px;
     margin-top: 50px;
     width: 500px;
     padding: 10px;
