@@ -77,10 +77,6 @@ function Research()
                                             <h4 className="plp"> FSL BET generated images </h4>
                                             <h4 className="opol"> Face and brain tissue probability by model</h4>
                                         </div>
-                                        <div className="io">
-                                            <img src={"images/rishi_0.2.png"} className="img-circled"width="900px"height="400px"background-color="blue"alt=''/>
-                                            <h4>0.8 and 0.3</h4>
-                                        </div>
                                         <div className="uo">
                                             <img src={"images/rishi_0.3.png"} className="img-circled"width="900px"height="400px"alt=''/>
                                             <h4>0.35 and 0.2</h4>
@@ -88,6 +84,10 @@ function Research()
                                         <div className="yo">
                                             <img src={"images/rishi_0.4.png"} className="img-circled"width="900px"height="400px"alt=''/>   
                                             <h4>0.17 and 0.12</h4>
+                                        </div>
+                                        <div className="io">
+                                            <img src={"images/rishi_0.2.png"} className="img-circled"width="900px"height="400px"alt=''/>
+                                            <h4>0.8 and 0.3</h4>
                                         </div>
                                     </div>
                                 </div>
