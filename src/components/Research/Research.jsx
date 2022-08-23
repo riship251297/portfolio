@@ -14,7 +14,7 @@ function Research()
                <div className="main">
                     <div className="first">
                         <ul>
-                            {/* <h3>DEEP LEARNING AND BIOINFORMATICS </h3> */}
+                            <h3>DEEP LEARNING AND BIOINFORMATICS </h3>
                             <br></br>
                             {/* <h2 className="edit">Research funded by National Institute of Health Sciences, US</h2> */}
                             <h3 className="pop">Quality Evaluation of Shared Datasets :</h3>
