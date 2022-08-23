@@ -11,12 +11,16 @@ function Research()
         <>
            <div>
                <Navbar/>
+               <h3 className="opo">DEEP LEARNING AND BIOINFORMATICS </h3>
+               <br></br>
+                <h5 className="edit">Research funded by National Institute of Health Sciences, US</h5>
+
+
                <div className="main">
+
                     <div className="first">
                         <ul>
-                            <h3>DEEP LEARNING AND BIOINFORMATICS </h3>
                             <br></br>
-                            {/* <h2 className="edit">Research funded by National Institute of Health Sciences, US</h2> */}
                             <h3 className="pop">Quality Evaluation of Shared Datasets :</h3>
                             <ol>
                                 <div className="first-second">

@@ -24,7 +24,8 @@ h2{
 
 .edit
 {
-    margin-left: 1000px;
+    margin-top: -1px;
+    margin-left: 880px;
 }
 
 .pop
@@ -34,7 +35,7 @@ h2{
 
 .dysl
 {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .ll
@@ -104,3 +105,9 @@ a
 {
     height: 1600px;
 } */
+
+.opo
+{
+    padding: 10px;
+    margin-left: 550px;
+}
