@@ -78,7 +78,7 @@ function Research()
                                             <h4 className="opol"> Face and brain tissue probability by model</h4>
                                         </div>
                                         <div className="io">
-                                            <img src={"images/rishi_0.2.png"} className="img-circled"width="900px"height="400px"alt=''/>
+                                            <img src={"images/rishi_0.2.png"} className="img-circled"width="900px"height="400px"background-color="blue"alt=''/>
                                             <h4>0.8 and 0.3</h4>
                                         </div>
                                         <div className="uo">

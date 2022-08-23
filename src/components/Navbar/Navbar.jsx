@@ -9,7 +9,7 @@ function Navbar(){
                 <div className="names"><a href="http://localhost:3000/">RISHIKESH</a></div>
                 <nav>
                     <Link to ="/projects" >PROJECTS</Link>
-                    <Link to ="/gallery" >GALLERY</Link>
+                    {/* <Link to ="/gallery" >GALLERY</Link> */}
                     <Link to ="/research" >RESEARCH</Link>
                     <Link to ="/about" >ABOUT</Link>
                 </nav>

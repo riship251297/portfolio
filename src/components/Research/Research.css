@@ -57,7 +57,7 @@ h2{
 
 img
 {
-    margin-left: -60px;
+    margin-left: -20px;
 }
 
 .yo,.uo
@@ -67,6 +67,8 @@ img
 
 .io
 {
+    width: 900px;
+    height: 500px;
     display: flex;
 }
 
