@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "0.1.0",
-  "homepage": "https://riship251297.github.io/portfolio",
+  "homepage": "https://localhost:4000/",
   "private": true,
   "dependencies": {
     "@ionic/react": "^6.2.2",

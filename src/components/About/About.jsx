@@ -2,7 +2,7 @@ import React from "react";
 import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
-import '/Users/rishikesh/Desktop/project/src/components/About/About.css'
+import '../About/About.css'
 import { GoDesktopDownload } from "react-icons/go";
 import { FaGithub,FaLinkedin,FaJs,FaReact,FaTelegramPlane,FaTwitter,FaPython,FaHtml5,FaCss3Alt,FaNode,MdOutgoingMail } from "react-icons/fa";
 

@@ -1,10 +1,9 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import '../Projects/Projects.css';
-import ppovideo from '/Users/rishikesh/Desktop/project/src/Video/PPO.mp4';
-import dqnvideo from '/Users/rishikesh/Desktop/project/src/Video/DQN.mp4'
-
-
+import ppovideo from '/Users/rishikesh/Desktop/portfolio/portfolio/src/Video/DQN.mp4'
+import dqnvideo from '/Users/rishikesh/Desktop/portfolio/portfolio/src/Video/DQN.mp4'
+// src/Video/DQN.mp4
 const Projects = () => {
   return (
       <>

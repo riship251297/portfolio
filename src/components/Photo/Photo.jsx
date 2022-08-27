@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/rishikesh/Desktop/project/src/components/Photo/Photo.css'
+import '../Photo/Photo.css'
 function Photo() {
     return(
         <div className="photo">

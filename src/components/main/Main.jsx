@@ -1,5 +1,6 @@
 import React from "react";
-import '/Users/rishikesh/Desktop/project/src/components/main/Main.css';
+import '../main/Main.css';
+// import './Main.css';
 import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
