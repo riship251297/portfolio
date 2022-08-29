@@ -12,6 +12,7 @@ function Navbar(){
                     {/* <Link to ="/gallery" >GALLERY</Link> */}
                     <Link to ="/research" >RESEARCH</Link>
                     <Link to ="/about" >ABOUT</Link>
+                    <Link to ="/contact">CONTACT</Link>
                 </nav>
             </div>
         </React.Fragment>

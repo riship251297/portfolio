@@ -11,6 +11,7 @@ function Main() {
         <Navbar/>
         <Photo/>
         <Box/>
+        
         </div>
         </>
 

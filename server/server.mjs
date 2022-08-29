@@ -152,12 +152,13 @@ app.get('/download',async function(req,res)
 })
 
 
-app.get('/data',async function(req,res)
+app.get('/dat',async function(req,res)
 {
     let data = {"name":"rishikesh",
             "email":"rphatan@clemson.edu",
             "ID ":"251297"
         }
+        res.json(data)
 })
 
 app.get('/email',async function(req,res)

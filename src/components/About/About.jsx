@@ -4,10 +4,26 @@ import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";
 import '../About/About.css'
 import { GoDesktopDownload } from "react-icons/go";
+import axios from "axios";
 import { FaGithub,FaLinkedin,FaJs,FaReact,FaTelegramPlane,FaTwitter,FaPython,FaHtml5,FaCss3Alt,FaNode,MdOutgoingMail } from "react-icons/fa";
 
 
 function About (){
+
+  const data = () =>
+  {
+    axios.get("http://localhost:3501/dat").then((response)=>{
+      console.log(response)
+    })
+  }
+
+  const postdata = () =>
+  {
+    axios.post("http://localhost:3501/send_email").then((response)=>{
+      response.send("data sent")
+    })
+  }
+          
     return (
         <>
         <Navbar/>
@@ -15,6 +31,8 @@ function About (){
         <Photo/>
 
         <Box/>
+
+
         {/* <h4>Check out my Resume : <a href="https:youtube.com"><GoDesktopDownload/></a> </h4>
         <h4>Find my work on  : <FaGithub size={50}/></h4>
         <h4>You can connect me on : <FaLinkedin size={50}/></h4>
@@ -90,6 +108,21 @@ function About (){
             </ol>
             </div>
           </div>
+        </div>
+
+        <div className="pl">
+          <h1>rishikesh</h1>
+          <button className='btn btn-primary' onClick={data}>Fetchdata</button>
+        </div>
+
+        <div className="form">
+          <form onSubmit={handle}>
+            <label>
+              Name:
+              <input type="text" value={this.state.value} onChange={this.handleChange} />
+            </label>
+            <input type="submit" value="Submit" />
+          </form>
         </div>
         
         </>
