@@ -50,8 +50,8 @@ function About (){
             </div>
             
           <hr></hr>
-          <br></br>
-          <div className="internship">
+          {/* <br></br> */}
+          {/* <div className="internship">
             <h2 className="cen">INTERNSHIPS</h2>
             <div className="intern">
              <li className="mal"><b>Software Engineering Intern | Simpliforge Creations </b></li>
@@ -61,7 +61,7 @@ function About (){
               </ol>
             </div>
           </div>
-          <hr></hr>
+          <hr></hr> */}
           <div className="coursework">
             <center><h2>MS - COURSEWORK</h2></center>
             <div className="andar">

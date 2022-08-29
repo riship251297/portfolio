@@ -17,6 +17,7 @@ import * as fs from 'fs';
 
 import download from 'download';
 
+import nodemailer from 'nodemailer';
 
 
 
@@ -148,6 +149,47 @@ app.get('/download',async function(req,res)
 .then(() => {
     console.log('Download Completed');
 })
+})
+
+
+app.get('/data',async function(req,res)
+{
+    let data = {"name":"rishikesh",
+            "email":"rphatan@clemson.edu",
+            "ID ":"251297"
+        }
+})
+
+app.get('/email',async function(req,res)
+{
+    let transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: process.env.EMAIL,
+            pass: process.env.PASSWORD 
+        }
+    });
+    
+    // Step 2
+    let mailOptions = {
+        from: 'rphatan@g.clemson.edu', 
+        to: 'rphatan@g.clemson.edu', 
+        subject: 'Successful Contact submission',
+        text: 'Thanks for your contact information !'
+    };
+    
+    // Step 3
+    transporter.sendMail(mailOptions, (err, data) => {
+        if (err) {
+            console.log(err.message);
+
+        }
+        if (!err)
+        {
+            res.send("Email sent !")
+        }
+    });
+    
 })
 
 
