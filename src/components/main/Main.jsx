@@ -1,6 +1,5 @@
 import React from "react";
 import '../main/Main.css';
-// import './Main.css';
 import Box from "../Box/Box";
 import Navbar from "../Navbar/Navbar";
 import Photo from "../Photo/Photo";

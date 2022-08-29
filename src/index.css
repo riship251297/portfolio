@@ -18,12 +18,12 @@ body{
 
 .main_container{
   display: block;
-  max-width: 100%;
+  max-width: 900px;
   height: 1000%;
 }
 
 .middleboard{
-  width: 1700px;
+  max-width: 900px;
   height: 750px;
   background-color: #e9e2e1;
   display: block;
@@ -33,7 +33,7 @@ body{
 
 .upperboard{
   display: flex;
-  width: 1600px;
+  width: 900px;
   height: 120px;
   background-color:#29ab87;
   align-items: center;
@@ -43,7 +43,7 @@ body{
 .endboard{
   background-color:#f5f9f8;
   display: flex;
-  width: auto;
+  width: 900px;
   height: 1000px;
   border-style: inherit;
   border-color: #050505;
