@@ -161,6 +161,11 @@ app.get('/dat',async function(req,res)
         res.json(data)
 })
 
+app.get('/send_data',async function(req,res)
+    {
+        console.log(res.body.username)
+    })
+
 app.get('/email',async function(req,res)
 {
     let transporter = nodemailer.createTransport({

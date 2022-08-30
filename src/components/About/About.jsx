@@ -6,6 +6,7 @@ import '../About/About.css'
 import { GoDesktopDownload } from "react-icons/go";
 import axios from "axios";
 import { FaGithub,FaLinkedin,FaJs,FaReact,FaTelegramPlane,FaTwitter,FaPython,FaHtml5,FaCss3Alt,FaNode,MdOutgoingMail } from "react-icons/fa";
+import { useState } from "react";
 
 
 function About (){
@@ -17,12 +18,33 @@ function About (){
     })
   }
 
-  const postdata = () =>
-  {
-    axios.post("http://localhost:3501/send_email").then((response)=>{
-      response.send("data sent")
+  
+
+  
+    const [name,SetName] = useState("");
+    const [email,SetEmail] = useState("");
+
+    function handle(event)
+    {
+      event.preventDefault();
+      const form_d = new FormData();
+      form_d.append("username",name)
+      form_d.append("email",email)
+
+      axios.post("http://localhost:3501/send_data",form_d).then((res)=>
+      {
+        console.log(res)
+      if (res)
+      {
+      console.log("data sent")
+      }
+      else
+      {
+        console.log("error")
+      }
     })
-  }
+    }
+  
           
     return (
         <>
@@ -115,11 +137,13 @@ function About (){
           <button className='btn btn-primary' onClick={data}>Fetchdata</button>
         </div>
 
-        <div className="form">
+        <div className="form"id="formdata">
           <form onSubmit={handle}>
-            <label>
-              Name:
-              <input type="text" value={this.state.value} onChange={this.handleChange} />
+            <label>Name:
+              <input type="text" value={name} onChange={(e)=> SetName(e.target.value)} />         
+            </label>
+            <label>Email :
+              <input type="email" value={email} onChange={(e)=> SetEmail(e.target.value)}/>
             </label>
             <input type="submit" value="Submit" />
           </form>
